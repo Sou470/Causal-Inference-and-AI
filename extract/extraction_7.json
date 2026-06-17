@@ -1,0 +1,272 @@
+[
+  {
+    "article_id": "a0472",
+    "period": "pre",
+    "date": "1919-12-11",
+    "entities": [
+      {
+        "type": "Person",
+        "label": "Maj. Pullman",
+        "quote": "AlaJ. Pullman, superintendent of po lice. thinks greater care should be exercised"
+      },
+      {
+        "type": "Concept",
+        "label": "denatured alcohol",
+        "quote": "denatured alcohol is easily obtained at auto service sta tions through the city"
+      }
+    ],
+    "events": [
+      {
+        "label": "경찰 경고 발령",
+        "date_hint": "1919-12-11",
+        "quote": "In a message to the several police captains, AlaJ. Pullman stated"
+      }
+    ],
+    "causal_assertions": [
+      {
+        "cause": "변성 알코올의 손쉬운 접근(자동차 정비소)",
+        "effect": "음용 목적의 불법 전용",
+        "relation": "enables",
+        "sign": "+",
+        "confidence": 0.6,
+        "frame": "illicit_market",
+        "quote": "denatured alcohol is easily obtained at auto service sta tions through the city by representing tha",
+        "reliability": "weak"
+      }
+    ]
+  },
+  {
+    "article_id": "a0531",
+    "period": "pre",
+    "date": "1919-12-13",
+    "entities": [
+      {
+        "type": "Concept",
+        "label": "wood alcohol",
+        "quote": "Wood alcohol makes the subsequent doctor's bill"
+      },
+      {
+        "type": "Concept",
+        "label": "bootlegger's bribe",
+        "quote": "the bootleggers' exorbi tant bribe"
+      }
+    ],
+    "events": [],
+    "causal_assertions": [
+      {
+        "cause": "목정 알코올(wood alcohol) 음용",
+        "effect": "중독/의료비 지출",
+        "relation": "causes",
+        "sign": "+",
+        "confidence": 0.5,
+        "frame": "crime",
+        "quote": "Wood alcohol makes the subsequent doctor's bill as important an incident of a spree",
+        "reliability": "interpretive"
+      },
+      {
+        "cause": "밀주(스피크지) 음주 풍습 일반",
+        "effect": "부패(뇌물) 관행과의 풍자적 등치",
+        "relation": "enables",
+        "sign": "+",
+        "confidence": 0.3,
+        "frame": "corruption",
+        "quote": "as the bootleggers' exorbi tant bribe",
+        "reliability": "interpretive"
+      }
+    ]
+  },
+  {
+    "article_id": "a0267",
+    "period": "pre",
+    "date": "1919-12-07",
+    "entities": [
+      {
+        "type": "Place",
+        "label": "Brooklyn",
+        "quote": "CHARGED IN BROOKLYN"
+      },
+      {
+        "type": "Concept",
+        "label": "가정 제조 술 레시피",
+        "quote": "selling recipes for home mnnufacture of beer and \"red liquor\""
+      }
+    ],
+    "events": [
+      {
+        "label": "체포(2남1녀)",
+        "date_hint": "1919-12-07",
+        "quote": "two men am' a woman were arrested today in Brooklyn by federal.officials"
+      }
+    ],
+    "causal_assertions": [
+      {
+        "cause": "자가제조 술 레시피 판매 광고",
+        "effect": "연방 단속 및 체포",
+        "relation": "causes",
+        "sign": "+",
+        "confidence": 0.8,
+        "frame": "crime",
+        "quote": "two men am' a woman were arrested today in Brooklyn by federal.officials",
+        "reliability": "clear"
+      },
+      {
+        "cause": "다량의 알코올 함유 주장 광고",
+        "effect": "연방 당국의 보고 접수·수사 개시",
+        "relation": "causes",
+        "sign": "+",
+        "confidence": 0.7,
+        "frame": "illicit_market",
+        "quote": "fdrmulas for making liquors at home which would contain \"lartee amounts of alcohol\" were being advertised",
+        "reliability": "clear"
+      }
+    ]
+  },
+  {
+    "article_id": "a3510",
+    "period": "post",
+    "date": "1920-02-25",
+    "entities": [
+      {
+        "type": "Person",
+        "label": "Mathias Erzberger",
+        "quote": "MATHtAS ERZBERGER Minister of Finance Retires Dis credited"
+      },
+      {
+        "type": "Person",
+        "label": "Moesle",
+        "quote": "Moesle has be^n se-' lented to succeed Mathias Err-b.-rtfr"
+      }
+    ],
+    "events": [
+      {
+        "label": "재무장관 사임",
+        "date_hint": "1920-02-24",
+        "quote": "who resigned yesterday as minister' of finance"
+      }
+    ],
+    "causal_assertions": [
+      {
+        "cause": "자금 밀반출(money smuggling) 의혹",
+        "effect": "재무장관 사임/경질",
+        "relation": "causes",
+        "sign": "+",
+        "confidence": 0.5,
+        "frame": "corruption",
+        "quote": "Money Smuggling Is Suspected",
+        "reliability": "error"
+      }
+    ]
+  },
+  {
+    "article_id": "a3354",
+    "period": "post",
+    "date": "1920-02-22",
+    "entities": [
+      {
+        "type": "Place",
+        "label": "New Jersey",
+        "quote": "liquor agitation is figuring in New Jersey"
+      }
+    ],
+    "events": [],
+    "causal_assertions": [
+      {
+        "cause": "주류(금주법) 논쟁 격화",
+        "effect": "지역 정치 지형(의석 경쟁) 영향",
+        "relation": "enables",
+        "sign": "+",
+        "confidence": 0.4,
+        "frame": "corruption",
+        "quote": "liquor agitation is figuring in New Jersey",
+        "reliability": "weak"
+      }
+    ]
+  },
+  {
+    "article_id": "a3435",
+    "period": "post",
+    "date": "1920-02-23",
+    "entities": [
+      {
+        "type": "Person",
+        "label": "Gov. Edwards",
+        "quote": "Gov. Edwards of New Jersey an nounced here yesterday his intention"
+      },
+      {
+        "type": "Organization",
+        "label": "민주당 전당대회",
+        "quote": "the democratic national i convention at San Francisco"
+      }
+    ],
+    "events": [
+      {
+        "label": "반금주법 강령 지지 선언",
+        "date_hint": "1920-02-23",
+        "quote": "prepared to fight for an anti-prohibition plank j in the party platform"
+      }
+    ],
+    "causal_assertions": [
+      {
+        "cause": "금주법에 대한 정치적 반발",
+        "effect": "정당 강령 내 반금주법 조항 추진",
+        "relation": "causes",
+        "sign": "+",
+        "confidence": 0.6,
+        "frame": "corruption",
+        "quote": "prepared to fight for an anti-prohibition plank j in the party platform",
+        "reliability": "clear"
+      }
+    ]
+  },
+  {
+    "article_id": "a3667",
+    "period": "post",
+    "date": "1920-02-29",
+    "entities": [
+      {
+        "type": "Person",
+        "label": "Ferdinand Appell",
+        "quote": "Ferdinand Appell and Morris Litvin Are Placed Un der Arrest"
+      },
+      {
+        "type": "Person",
+        "label": "Morris Litvin",
+        "quote": "Ferdinand Appell and Morris Litvin Are Placed Un der Arrest"
+      },
+      {
+        "type": "Place",
+        "label": "M Street",
+        "quote": "IT GOODS SEIZED IN M STREET RAIDS"
+      }
+    ],
+    "events": [
+      {
+        "label": "M가 단속(raid)",
+        "date_hint": "1920-02-28",
+        "quote": "a vail containing* a larpe quantity of liquor ami a tew bottles of non-alcoholic heveragres yesterday afternoon"
+      }
+    ],
+    "causal_assertions": [
+      {
+        "cause": "금주국 단속(raid) 실시 (헤드라인)",
+        "effect": "관련자 체포",
+        "relation": "causes",
+        "sign": "+",
+        "confidence": 0.7,
+        "frame": "crime",
+        "quote": "Ferdinand Appell and Morris Litvin Are Placed Un der Arrest",
+        "reliability": "clear"
+      },
+      {
+        "cause": "단속 중 다량의 주류 발견",
+        "effect": "압류 조치",
+        "relation": "causes",
+        "sign": "+",
+        "confidence": 0.7,
+        "frame": "crime",
+        "quote": "a vail containing* a larpe quantity of liquor ami a tew bottles of non-alcoholic heveragres yesterday afternoon backed agai",
+        "reliability": "clear"
+      }
+    ]
+  }
+]

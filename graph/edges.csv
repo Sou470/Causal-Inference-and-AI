@@ -1,0 +1,105 @@
+src,dst,etype,quote
+ART:a0472,SRC:EveningStar,DERIVED_FROM,
+Person:Maj. Pullman,MENTION:a0472:Maj. Pullman,SUPPORTED_BY,
+Person:Maj. Pullman,ART:a0472,ABOUT,"AlaJ. Pullman, superintendent of po lice. thinks greater care should be exercised"
+MENTION:a0472:Maj. Pullman,ART:a0472,DERIVED_FROM,
+Concept:denatured alcohol,MENTION:a0472:denatured alcohol,SUPPORTED_BY,
+Concept:denatured alcohol,ART:a0472,ABOUT,denatured alcohol is easily obtained at auto service sta tions through the city
+MENTION:a0472:denatured alcohol,ART:a0472,DERIVED_FROM,
+EVENT:a0472:0,ART:a0472,ABOUT,"In a message to the several police captains, AlaJ. Pullman stated"
+EVENT:a0472:0,MENTION:a0472:event0,SUPPORTED_BY,
+MENTION:a0472:event0,ART:a0472,DERIVED_FROM,
+CA:a0472:0,Concept:변성 알코올의 손쉬운 접근(자동차 정비소),CAUSE,
+CA:a0472:0,Concept:음용 목적의 불법 전용,EFFECT,
+CA:a0472:0,MENTION:a0472:ca0,EVIDENCE,
+MENTION:a0472:ca0,ART:a0472,DERIVED_FROM,
+ART:a0531,SRC:EveningStar,DERIVED_FROM,
+Concept:wood alcohol,MENTION:a0531:wood alcohol,SUPPORTED_BY,
+Concept:wood alcohol,ART:a0531,ABOUT,Wood alcohol makes the subsequent doctor's bill
+MENTION:a0531:wood alcohol,ART:a0531,DERIVED_FROM,
+Concept:bootlegger's bribe,MENTION:a0531:bootlegger's bribe,SUPPORTED_BY,
+Concept:bootlegger's bribe,ART:a0531,ABOUT,the bootleggers' exorbi tant bribe
+MENTION:a0531:bootlegger's bribe,ART:a0531,DERIVED_FROM,
+CA:a0531:0,Concept:목정 알코올(wood alcohol) 음용,CAUSE,
+CA:a0531:0,Concept:중독/의료비 지출,EFFECT,
+CA:a0531:0,MENTION:a0531:ca0,EVIDENCE,
+MENTION:a0531:ca0,ART:a0531,DERIVED_FROM,
+CA:a0531:1,Concept:밀주(스피크지) 음주 풍습 일반,CAUSE,
+CA:a0531:1,Concept:부패(뇌물) 관행과의 풍자적 등치,EFFECT,
+CA:a0531:1,MENTION:a0531:ca1,EVIDENCE,
+MENTION:a0531:ca1,ART:a0531,DERIVED_FROM,
+ART:a0267,SRC:EveningStar,DERIVED_FROM,
+Place:Brooklyn,MENTION:a0267:Brooklyn,SUPPORTED_BY,
+Place:Brooklyn,ART:a0267,ABOUT,CHARGED IN BROOKLYN
+MENTION:a0267:Brooklyn,ART:a0267,DERIVED_FROM,
+Concept:가정 제조 술 레시피,MENTION:a0267:가정 제조 술 레시피,SUPPORTED_BY,
+Concept:가정 제조 술 레시피,ART:a0267,ABOUT,"selling recipes for home mnnufacture of beer and ""red liquor"""
+MENTION:a0267:가정 제조 술 레시피,ART:a0267,DERIVED_FROM,
+EVENT:a0267:0,ART:a0267,ABOUT,two men am' a woman were arrested today in Brooklyn by federal.officials
+EVENT:a0267:0,MENTION:a0267:event0,SUPPORTED_BY,
+MENTION:a0267:event0,ART:a0267,DERIVED_FROM,
+CA:a0267:0,Concept:자가제조 술 레시피 판매 광고,CAUSE,
+CA:a0267:0,Concept:연방 단속 및 체포,EFFECT,
+CA:a0267:0,MENTION:a0267:ca0,EVIDENCE,
+MENTION:a0267:ca0,ART:a0267,DERIVED_FROM,
+CA:a0267:1,Concept:다량의 알코올 함유 주장 광고,CAUSE,
+CA:a0267:1,Concept:연방 당국의 보고 접수·수사 개시,EFFECT,
+CA:a0267:1,MENTION:a0267:ca1,EVIDENCE,
+MENTION:a0267:ca1,ART:a0267,DERIVED_FROM,
+ART:a3510,SRC:EveningStar,DERIVED_FROM,
+Person:Mathias Erzberger,MENTION:a3510:Mathias Erzberger,SUPPORTED_BY,
+Person:Mathias Erzberger,ART:a3510,ABOUT,MATHtAS ERZBERGER Minister of Finance Retires Dis credited
+MENTION:a3510:Mathias Erzberger,ART:a3510,DERIVED_FROM,
+Person:Moesle,MENTION:a3510:Moesle,SUPPORTED_BY,
+Person:Moesle,ART:a3510,ABOUT,Moesle has be^n se-' lented to succeed Mathias Err-b.-rtfr
+MENTION:a3510:Moesle,ART:a3510,DERIVED_FROM,
+EVENT:a3510:0,ART:a3510,ABOUT,who resigned yesterday as minister' of finance
+EVENT:a3510:0,MENTION:a3510:event0,SUPPORTED_BY,
+MENTION:a3510:event0,ART:a3510,DERIVED_FROM,
+CA:a3510:0,Concept:자금 밀반출(money smuggling) 의혹,CAUSE,
+CA:a3510:0,Concept:재무장관 사임/경질,EFFECT,
+CA:a3510:0,MENTION:a3510:ca0,EVIDENCE,
+MENTION:a3510:ca0,ART:a3510,DERIVED_FROM,
+ART:a3354,SRC:EveningStar,DERIVED_FROM,
+Place:New Jersey,MENTION:a3354:New Jersey,SUPPORTED_BY,
+Place:New Jersey,ART:a3354,ABOUT,liquor agitation is figuring in New Jersey
+MENTION:a3354:New Jersey,ART:a3354,DERIVED_FROM,
+CA:a3354:0,Concept:주류(금주법) 논쟁 격화,CAUSE,
+CA:a3354:0,Concept:지역 정치 지형(의석 경쟁) 영향,EFFECT,
+CA:a3354:0,MENTION:a3354:ca0,EVIDENCE,
+MENTION:a3354:ca0,ART:a3354,DERIVED_FROM,
+ART:a3435,SRC:EveningStar,DERIVED_FROM,
+Person:Gov. Edwards,MENTION:a3435:Gov. Edwards,SUPPORTED_BY,
+Person:Gov. Edwards,ART:a3435,ABOUT,Gov. Edwards of New Jersey an nounced here yesterday his intention
+MENTION:a3435:Gov. Edwards,ART:a3435,DERIVED_FROM,
+Organization:민주당 전당대회,MENTION:a3435:민주당 전당대회,SUPPORTED_BY,
+Organization:민주당 전당대회,ART:a3435,ABOUT,the democratic national i convention at San Francisco
+MENTION:a3435:민주당 전당대회,ART:a3435,DERIVED_FROM,
+EVENT:a3435:0,ART:a3435,ABOUT,prepared to fight for an anti-prohibition plank j in the party platform
+EVENT:a3435:0,MENTION:a3435:event0,SUPPORTED_BY,
+MENTION:a3435:event0,ART:a3435,DERIVED_FROM,
+CA:a3435:0,Concept:금주법에 대한 정치적 반발,CAUSE,
+CA:a3435:0,Concept:정당 강령 내 반금주법 조항 추진,EFFECT,
+CA:a3435:0,MENTION:a3435:ca0,EVIDENCE,
+MENTION:a3435:ca0,ART:a3435,DERIVED_FROM,
+ART:a3667,SRC:EveningStar,DERIVED_FROM,
+Person:Ferdinand Appell,MENTION:a3667:Ferdinand Appell,SUPPORTED_BY,
+Person:Ferdinand Appell,ART:a3667,ABOUT,Ferdinand Appell and Morris Litvin Are Placed Un der Arrest
+MENTION:a3667:Ferdinand Appell,ART:a3667,DERIVED_FROM,
+Person:Morris Litvin,MENTION:a3667:Morris Litvin,SUPPORTED_BY,
+Person:Morris Litvin,ART:a3667,ABOUT,Ferdinand Appell and Morris Litvin Are Placed Un der Arrest
+MENTION:a3667:Morris Litvin,ART:a3667,DERIVED_FROM,
+Place:M Street,MENTION:a3667:M Street,SUPPORTED_BY,
+Place:M Street,ART:a3667,ABOUT,IT GOODS SEIZED IN M STREET RAIDS
+MENTION:a3667:M Street,ART:a3667,DERIVED_FROM,
+EVENT:a3667:0,ART:a3667,ABOUT,a vail containing* a larpe quantity of liquor ami a tew bottles of non-alcoholic heveragres yesterday afternoon
+EVENT:a3667:0,MENTION:a3667:event0,SUPPORTED_BY,
+MENTION:a3667:event0,ART:a3667,DERIVED_FROM,
+CA:a3667:0,Concept:금주국 단속(raid) 실시 (헤드라인),CAUSE,
+CA:a3667:0,Concept:관련자 체포,EFFECT,
+CA:a3667:0,MENTION:a3667:ca0,EVIDENCE,
+MENTION:a3667:ca0,ART:a3667,DERIVED_FROM,
+CA:a3667:1,Concept:단속 중 다량의 주류 발견,CAUSE,
+CA:a3667:1,Concept:압류 조치,EFFECT,
+CA:a3667:1,MENTION:a3667:ca1,EVIDENCE,
+MENTION:a3667:ca1,ART:a3667,DERIVED_FROM,

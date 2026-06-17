@@ -1,0 +1,87 @@
+id,ntype,label
+SRC:EveningStar,Source,Evening Star
+ART:a0472,Article,
+Person:Maj. Pullman,Person,Maj. Pullman
+MENTION:a0472:Maj. Pullman,Mention,"AlaJ. Pullman, superintendent of po lice. thinks greater care should be exercised"
+Concept:denatured alcohol,Concept,denatured alcohol
+MENTION:a0472:denatured alcohol,Mention,denatured alcohol is easily obtained at auto service sta tions through the city
+EVENT:a0472:0,Event,경찰 경고 발령
+MENTION:a0472:event0,Mention,"In a message to the several police captains, AlaJ. Pullman stated"
+CA:a0472:0,CausalAssertion,
+Concept:변성 알코올의 손쉬운 접근(자동차 정비소),Concept,변성 알코올의 손쉬운 접근(자동차 정비소)
+Concept:음용 목적의 불법 전용,Concept,음용 목적의 불법 전용
+MENTION:a0472:ca0,Mention,denatured alcohol is easily obtained at auto service sta tions through the city by representing tha
+ART:a0531,Article,
+Concept:wood alcohol,Concept,wood alcohol
+MENTION:a0531:wood alcohol,Mention,Wood alcohol makes the subsequent doctor's bill
+Concept:bootlegger's bribe,Concept,bootlegger's bribe
+MENTION:a0531:bootlegger's bribe,Mention,the bootleggers' exorbi tant bribe
+CA:a0531:0,CausalAssertion,
+Concept:목정 알코올(wood alcohol) 음용,Concept,목정 알코올(wood alcohol) 음용
+Concept:중독/의료비 지출,Concept,중독/의료비 지출
+MENTION:a0531:ca0,Mention,Wood alcohol makes the subsequent doctor's bill as important an incident of a spree
+CA:a0531:1,CausalAssertion,
+Concept:밀주(스피크지) 음주 풍습 일반,Concept,밀주(스피크지) 음주 풍습 일반
+Concept:부패(뇌물) 관행과의 풍자적 등치,Concept,부패(뇌물) 관행과의 풍자적 등치
+MENTION:a0531:ca1,Mention,as the bootleggers' exorbi tant bribe
+ART:a0267,Article,
+Place:Brooklyn,Place,Brooklyn
+MENTION:a0267:Brooklyn,Mention,CHARGED IN BROOKLYN
+Concept:가정 제조 술 레시피,Concept,가정 제조 술 레시피
+MENTION:a0267:가정 제조 술 레시피,Mention,"selling recipes for home mnnufacture of beer and ""red liquor"""
+EVENT:a0267:0,Event,체포(2남1녀)
+MENTION:a0267:event0,Mention,two men am' a woman were arrested today in Brooklyn by federal.officials
+CA:a0267:0,CausalAssertion,
+Concept:자가제조 술 레시피 판매 광고,Concept,자가제조 술 레시피 판매 광고
+Concept:연방 단속 및 체포,Concept,연방 단속 및 체포
+MENTION:a0267:ca0,Mention,two men am' a woman were arrested today in Brooklyn by federal.officials
+CA:a0267:1,CausalAssertion,
+Concept:다량의 알코올 함유 주장 광고,Concept,다량의 알코올 함유 주장 광고
+Concept:연방 당국의 보고 접수·수사 개시,Concept,연방 당국의 보고 접수·수사 개시
+MENTION:a0267:ca1,Mention,"fdrmulas for making liquors at home which would contain ""lartee amounts of alcohol"" were being advertised"
+ART:a3510,Article,
+Person:Mathias Erzberger,Person,Mathias Erzberger
+MENTION:a3510:Mathias Erzberger,Mention,MATHtAS ERZBERGER Minister of Finance Retires Dis credited
+Person:Moesle,Person,Moesle
+MENTION:a3510:Moesle,Mention,Moesle has be^n se-' lented to succeed Mathias Err-b.-rtfr
+EVENT:a3510:0,Event,재무장관 사임
+MENTION:a3510:event0,Mention,who resigned yesterday as minister' of finance
+CA:a3510:0,CausalAssertion,
+Concept:자금 밀반출(money smuggling) 의혹,Concept,자금 밀반출(money smuggling) 의혹
+Concept:재무장관 사임/경질,Concept,재무장관 사임/경질
+MENTION:a3510:ca0,Mention,Money Smuggling Is Suspected
+ART:a3354,Article,
+Place:New Jersey,Place,New Jersey
+MENTION:a3354:New Jersey,Mention,liquor agitation is figuring in New Jersey
+CA:a3354:0,CausalAssertion,
+Concept:주류(금주법) 논쟁 격화,Concept,주류(금주법) 논쟁 격화
+Concept:지역 정치 지형(의석 경쟁) 영향,Concept,지역 정치 지형(의석 경쟁) 영향
+MENTION:a3354:ca0,Mention,liquor agitation is figuring in New Jersey
+ART:a3435,Article,
+Person:Gov. Edwards,Person,Gov. Edwards
+MENTION:a3435:Gov. Edwards,Mention,Gov. Edwards of New Jersey an nounced here yesterday his intention
+Organization:민주당 전당대회,Organization,민주당 전당대회
+MENTION:a3435:민주당 전당대회,Mention,the democratic national i convention at San Francisco
+EVENT:a3435:0,Event,반금주법 강령 지지 선언
+MENTION:a3435:event0,Mention,prepared to fight for an anti-prohibition plank j in the party platform
+CA:a3435:0,CausalAssertion,
+Concept:금주법에 대한 정치적 반발,Concept,금주법에 대한 정치적 반발
+Concept:정당 강령 내 반금주법 조항 추진,Concept,정당 강령 내 반금주법 조항 추진
+MENTION:a3435:ca0,Mention,prepared to fight for an anti-prohibition plank j in the party platform
+ART:a3667,Article,
+Person:Ferdinand Appell,Person,Ferdinand Appell
+MENTION:a3667:Ferdinand Appell,Mention,Ferdinand Appell and Morris Litvin Are Placed Un der Arrest
+Person:Morris Litvin,Person,Morris Litvin
+MENTION:a3667:Morris Litvin,Mention,Ferdinand Appell and Morris Litvin Are Placed Un der Arrest
+Place:M Street,Place,M Street
+MENTION:a3667:M Street,Mention,IT GOODS SEIZED IN M STREET RAIDS
+EVENT:a3667:0,Event,M가 단속(raid)
+MENTION:a3667:event0,Mention,a vail containing* a larpe quantity of liquor ami a tew bottles of non-alcoholic heveragres yesterday afternoon
+CA:a3667:0,CausalAssertion,
+Concept:금주국 단속(raid) 실시 (헤드라인),Concept,금주국 단속(raid) 실시 (헤드라인)
+Concept:관련자 체포,Concept,관련자 체포
+MENTION:a3667:ca0,Mention,Ferdinand Appell and Morris Litvin Are Placed Un der Arrest
+CA:a3667:1,CausalAssertion,
+Concept:단속 중 다량의 주류 발견,Concept,단속 중 다량의 주류 발견
+Concept:압류 조치,Concept,압류 조치
+MENTION:a3667:ca1,Mention,a vail containing* a larpe quantity of liquor ami a tew bottles of non-alcoholic heveragres yesterday afternoon backed agai

@@ -1,0 +1,743 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d10" for="edge" attr.name="quote" attr.type="string" />
+  <key id="d9" for="edge" attr.name="etype" attr.type="string" />
+  <key id="d8" for="node" attr.name="frame" attr.type="string" />
+  <key id="d7" for="node" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="node" attr.name="sign" attr.type="string" />
+  <key id="d5" for="node" attr.name="relation" attr.type="string" />
+  <key id="d4" for="node" attr.name="date_hint" attr.type="string" />
+  <key id="d3" for="node" attr.name="period" attr.type="string" />
+  <key id="d2" for="node" attr.name="date" attr.type="string" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="ntype" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="SRC:EveningStar">
+      <data key="d0">Source</data>
+      <data key="d1">Evening Star</data>
+    </node>
+    <node id="ART:a0472">
+      <data key="d0">Article</data>
+      <data key="d2">1919-12-11</data>
+      <data key="d3">pre</data>
+    </node>
+    <node id="Person:Maj. Pullman">
+      <data key="d0">Person</data>
+      <data key="d1">Maj. Pullman</data>
+    </node>
+    <node id="MENTION:a0472:Maj. Pullman">
+      <data key="d0">Mention</data>
+      <data key="d1">AlaJ. Pullman, superintendent of po lice. thinks greater care should be exercised</data>
+    </node>
+    <node id="Concept:denatured alcohol">
+      <data key="d0">Concept</data>
+      <data key="d1">denatured alcohol</data>
+    </node>
+    <node id="MENTION:a0472:denatured alcohol">
+      <data key="d0">Mention</data>
+      <data key="d1">denatured alcohol is easily obtained at auto service sta tions through the city</data>
+    </node>
+    <node id="EVENT:a0472:0">
+      <data key="d0">Event</data>
+      <data key="d1">경찰 경고 발령</data>
+      <data key="d4">1919-12-11</data>
+    </node>
+    <node id="MENTION:a0472:event0">
+      <data key="d0">Mention</data>
+      <data key="d1">In a message to the several police captains, AlaJ. Pullman stated</data>
+    </node>
+    <node id="CA:a0472:0">
+      <data key="d0">CausalAssertion</data>
+      <data key="d5">enables</data>
+      <data key="d6">+</data>
+      <data key="d7">0.6</data>
+      <data key="d8">illicit_market</data>
+      <data key="d3">pre</data>
+    </node>
+    <node id="Concept:변성 알코올의 손쉬운 접근(자동차 정비소)">
+      <data key="d0">Concept</data>
+      <data key="d1">변성 알코올의 손쉬운 접근(자동차 정비소)</data>
+    </node>
+    <node id="Concept:음용 목적의 불법 전용">
+      <data key="d0">Concept</data>
+      <data key="d1">음용 목적의 불법 전용</data>
+    </node>
+    <node id="MENTION:a0472:ca0">
+      <data key="d0">Mention</data>
+      <data key="d1">denatured alcohol is easily obtained at auto service sta tions through the city by representing tha</data>
+    </node>
+    <node id="ART:a0531">
+      <data key="d0">Article</data>
+      <data key="d2">1919-12-13</data>
+      <data key="d3">pre</data>
+    </node>
+    <node id="Concept:wood alcohol">
+      <data key="d0">Concept</data>
+      <data key="d1">wood alcohol</data>
+    </node>
+    <node id="MENTION:a0531:wood alcohol">
+      <data key="d0">Mention</data>
+      <data key="d1">Wood alcohol makes the subsequent doctor's bill</data>
+    </node>
+    <node id="Concept:bootlegger's bribe">
+      <data key="d0">Concept</data>
+      <data key="d1">bootlegger's bribe</data>
+    </node>
+    <node id="MENTION:a0531:bootlegger's bribe">
+      <data key="d0">Mention</data>
+      <data key="d1">the bootleggers' exorbi tant bribe</data>
+    </node>
+    <node id="CA:a0531:0">
+      <data key="d0">CausalAssertion</data>
+      <data key="d5">causes</data>
+      <data key="d6">+</data>
+      <data key="d7">0.5</data>
+      <data key="d8">crime</data>
+      <data key="d3">pre</data>
+    </node>
+    <node id="Concept:목정 알코올(wood alcohol) 음용">
+      <data key="d0">Concept</data>
+      <data key="d1">목정 알코올(wood alcohol) 음용</data>
+    </node>
+    <node id="Concept:중독/의료비 지출">
+      <data key="d0">Concept</data>
+      <data key="d1">중독/의료비 지출</data>
+    </node>
+    <node id="MENTION:a0531:ca0">
+      <data key="d0">Mention</data>
+      <data key="d1">Wood alcohol makes the subsequent doctor's bill as important an incident of a spree</data>
+    </node>
+    <node id="CA:a0531:1">
+      <data key="d0">CausalAssertion</data>
+      <data key="d5">enables</data>
+      <data key="d6">+</data>
+      <data key="d7">0.3</data>
+      <data key="d8">corruption</data>
+      <data key="d3">pre</data>
+    </node>
+    <node id="Concept:밀주(스피크지) 음주 풍습 일반">
+      <data key="d0">Concept</data>
+      <data key="d1">밀주(스피크지) 음주 풍습 일반</data>
+    </node>
+    <node id="Concept:부패(뇌물) 관행과의 풍자적 등치">
+      <data key="d0">Concept</data>
+      <data key="d1">부패(뇌물) 관행과의 풍자적 등치</data>
+    </node>
+    <node id="MENTION:a0531:ca1">
+      <data key="d0">Mention</data>
+      <data key="d1">as the bootleggers' exorbi tant bribe</data>
+    </node>
+    <node id="ART:a0267">
+      <data key="d0">Article</data>
+      <data key="d2">1919-12-07</data>
+      <data key="d3">pre</data>
+    </node>
+    <node id="Place:Brooklyn">
+      <data key="d0">Place</data>
+      <data key="d1">Brooklyn</data>
+    </node>
+    <node id="MENTION:a0267:Brooklyn">
+      <data key="d0">Mention</data>
+      <data key="d1">CHARGED IN BROOKLYN</data>
+    </node>
+    <node id="Concept:가정 제조 술 레시피">
+      <data key="d0">Concept</data>
+      <data key="d1">가정 제조 술 레시피</data>
+    </node>
+    <node id="MENTION:a0267:가정 제조 술 레시피">
+      <data key="d0">Mention</data>
+      <data key="d1">selling recipes for home mnnufacture of beer and "red liquor"</data>
+    </node>
+    <node id="EVENT:a0267:0">
+      <data key="d0">Event</data>
+      <data key="d1">체포(2남1녀)</data>
+      <data key="d4">1919-12-07</data>
+    </node>
+    <node id="MENTION:a0267:event0">
+      <data key="d0">Mention</data>
+      <data key="d1">two men am' a woman were arrested today in Brooklyn by federal.officials</data>
+    </node>
+    <node id="CA:a0267:0">
+      <data key="d0">CausalAssertion</data>
+      <data key="d5">causes</data>
+      <data key="d6">+</data>
+      <data key="d7">0.8</data>
+      <data key="d8">crime</data>
+      <data key="d3">pre</data>
+    </node>
+    <node id="Concept:자가제조 술 레시피 판매 광고">
+      <data key="d0">Concept</data>
+      <data key="d1">자가제조 술 레시피 판매 광고</data>
+    </node>
+    <node id="Concept:연방 단속 및 체포">
+      <data key="d0">Concept</data>
+      <data key="d1">연방 단속 및 체포</data>
+    </node>
+    <node id="MENTION:a0267:ca0">
+      <data key="d0">Mention</data>
+      <data key="d1">two men am' a woman were arrested today in Brooklyn by federal.officials</data>
+    </node>
+    <node id="CA:a0267:1">
+      <data key="d0">CausalAssertion</data>
+      <data key="d5">causes</data>
+      <data key="d6">+</data>
+      <data key="d7">0.7</data>
+      <data key="d8">illicit_market</data>
+      <data key="d3">pre</data>
+    </node>
+    <node id="Concept:다량의 알코올 함유 주장 광고">
+      <data key="d0">Concept</data>
+      <data key="d1">다량의 알코올 함유 주장 광고</data>
+    </node>
+    <node id="Concept:연방 당국의 보고 접수·수사 개시">
+      <data key="d0">Concept</data>
+      <data key="d1">연방 당국의 보고 접수·수사 개시</data>
+    </node>
+    <node id="MENTION:a0267:ca1">
+      <data key="d0">Mention</data>
+      <data key="d1">fdrmulas for making liquors at home which would contain "lartee amounts of alcohol" were being advertised</data>
+    </node>
+    <node id="ART:a3510">
+      <data key="d0">Article</data>
+      <data key="d2">1920-02-25</data>
+      <data key="d3">post</data>
+    </node>
+    <node id="Person:Mathias Erzberger">
+      <data key="d0">Person</data>
+      <data key="d1">Mathias Erzberger</data>
+    </node>
+    <node id="MENTION:a3510:Mathias Erzberger">
+      <data key="d0">Mention</data>
+      <data key="d1">MATHtAS ERZBERGER Minister of Finance Retires Dis credited</data>
+    </node>
+    <node id="Person:Moesle">
+      <data key="d0">Person</data>
+      <data key="d1">Moesle</data>
+    </node>
+    <node id="MENTION:a3510:Moesle">
+      <data key="d0">Mention</data>
+      <data key="d1">Moesle has be^n se-' lented to succeed Mathias Err-b.-rtfr</data>
+    </node>
+    <node id="EVENT:a3510:0">
+      <data key="d0">Event</data>
+      <data key="d1">재무장관 사임</data>
+      <data key="d4">1920-02-24</data>
+    </node>
+    <node id="MENTION:a3510:event0">
+      <data key="d0">Mention</data>
+      <data key="d1">who resigned yesterday as minister' of finance</data>
+    </node>
+    <node id="CA:a3510:0">
+      <data key="d0">CausalAssertion</data>
+      <data key="d5">causes</data>
+      <data key="d6">+</data>
+      <data key="d7">0.5</data>
+      <data key="d8">corruption</data>
+      <data key="d3">post</data>
+    </node>
+    <node id="Concept:자금 밀반출(money smuggling) 의혹">
+      <data key="d0">Concept</data>
+      <data key="d1">자금 밀반출(money smuggling) 의혹</data>
+    </node>
+    <node id="Concept:재무장관 사임/경질">
+      <data key="d0">Concept</data>
+      <data key="d1">재무장관 사임/경질</data>
+    </node>
+    <node id="MENTION:a3510:ca0">
+      <data key="d0">Mention</data>
+      <data key="d1">Money Smuggling Is Suspected</data>
+    </node>
+    <node id="ART:a3354">
+      <data key="d0">Article</data>
+      <data key="d2">1920-02-22</data>
+      <data key="d3">post</data>
+    </node>
+    <node id="Place:New Jersey">
+      <data key="d0">Place</data>
+      <data key="d1">New Jersey</data>
+    </node>
+    <node id="MENTION:a3354:New Jersey">
+      <data key="d0">Mention</data>
+      <data key="d1">liquor agitation is figuring in New Jersey</data>
+    </node>
+    <node id="CA:a3354:0">
+      <data key="d0">CausalAssertion</data>
+      <data key="d5">enables</data>
+      <data key="d6">+</data>
+      <data key="d7">0.4</data>
+      <data key="d8">corruption</data>
+      <data key="d3">post</data>
+    </node>
+    <node id="Concept:주류(금주법) 논쟁 격화">
+      <data key="d0">Concept</data>
+      <data key="d1">주류(금주법) 논쟁 격화</data>
+    </node>
+    <node id="Concept:지역 정치 지형(의석 경쟁) 영향">
+      <data key="d0">Concept</data>
+      <data key="d1">지역 정치 지형(의석 경쟁) 영향</data>
+    </node>
+    <node id="MENTION:a3354:ca0">
+      <data key="d0">Mention</data>
+      <data key="d1">liquor agitation is figuring in New Jersey</data>
+    </node>
+    <node id="ART:a3435">
+      <data key="d0">Article</data>
+      <data key="d2">1920-02-23</data>
+      <data key="d3">post</data>
+    </node>
+    <node id="Person:Gov. Edwards">
+      <data key="d0">Person</data>
+      <data key="d1">Gov. Edwards</data>
+    </node>
+    <node id="MENTION:a3435:Gov. Edwards">
+      <data key="d0">Mention</data>
+      <data key="d1">Gov. Edwards of New Jersey an nounced here yesterday his intention</data>
+    </node>
+    <node id="Organization:민주당 전당대회">
+      <data key="d0">Organization</data>
+      <data key="d1">민주당 전당대회</data>
+    </node>
+    <node id="MENTION:a3435:민주당 전당대회">
+      <data key="d0">Mention</data>
+      <data key="d1">the democratic national i convention at San Francisco</data>
+    </node>
+    <node id="EVENT:a3435:0">
+      <data key="d0">Event</data>
+      <data key="d1">반금주법 강령 지지 선언</data>
+      <data key="d4">1920-02-23</data>
+    </node>
+    <node id="MENTION:a3435:event0">
+      <data key="d0">Mention</data>
+      <data key="d1">prepared to fight for an anti-prohibition plank j in the party platform</data>
+    </node>
+    <node id="CA:a3435:0">
+      <data key="d0">CausalAssertion</data>
+      <data key="d5">causes</data>
+      <data key="d6">+</data>
+      <data key="d7">0.6</data>
+      <data key="d8">corruption</data>
+      <data key="d3">post</data>
+    </node>
+    <node id="Concept:금주법에 대한 정치적 반발">
+      <data key="d0">Concept</data>
+      <data key="d1">금주법에 대한 정치적 반발</data>
+    </node>
+    <node id="Concept:정당 강령 내 반금주법 조항 추진">
+      <data key="d0">Concept</data>
+      <data key="d1">정당 강령 내 반금주법 조항 추진</data>
+    </node>
+    <node id="MENTION:a3435:ca0">
+      <data key="d0">Mention</data>
+      <data key="d1">prepared to fight for an anti-prohibition plank j in the party platform</data>
+    </node>
+    <node id="ART:a3667">
+      <data key="d0">Article</data>
+      <data key="d2">1920-02-29</data>
+      <data key="d3">post</data>
+    </node>
+    <node id="Person:Ferdinand Appell">
+      <data key="d0">Person</data>
+      <data key="d1">Ferdinand Appell</data>
+    </node>
+    <node id="MENTION:a3667:Ferdinand Appell">
+      <data key="d0">Mention</data>
+      <data key="d1">Ferdinand Appell and Morris Litvin Are Placed Un der Arrest</data>
+    </node>
+    <node id="Person:Morris Litvin">
+      <data key="d0">Person</data>
+      <data key="d1">Morris Litvin</data>
+    </node>
+    <node id="MENTION:a3667:Morris Litvin">
+      <data key="d0">Mention</data>
+      <data key="d1">Ferdinand Appell and Morris Litvin Are Placed Un der Arrest</data>
+    </node>
+    <node id="Place:M Street">
+      <data key="d0">Place</data>
+      <data key="d1">M Street</data>
+    </node>
+    <node id="MENTION:a3667:M Street">
+      <data key="d0">Mention</data>
+      <data key="d1">IT GOODS SEIZED IN M STREET RAIDS</data>
+    </node>
+    <node id="EVENT:a3667:0">
+      <data key="d0">Event</data>
+      <data key="d1">M가 단속(raid)</data>
+      <data key="d4">1920-02-28</data>
+    </node>
+    <node id="MENTION:a3667:event0">
+      <data key="d0">Mention</data>
+      <data key="d1">a vail containing* a larpe quantity of liquor ami a tew bottles of non-alcoholic heveragres yesterday afternoon</data>
+    </node>
+    <node id="CA:a3667:0">
+      <data key="d0">CausalAssertion</data>
+      <data key="d5">causes</data>
+      <data key="d6">+</data>
+      <data key="d7">0.7</data>
+      <data key="d8">crime</data>
+      <data key="d3">post</data>
+    </node>
+    <node id="Concept:금주국 단속(raid) 실시 (헤드라인)">
+      <data key="d0">Concept</data>
+      <data key="d1">금주국 단속(raid) 실시 (헤드라인)</data>
+    </node>
+    <node id="Concept:관련자 체포">
+      <data key="d0">Concept</data>
+      <data key="d1">관련자 체포</data>
+    </node>
+    <node id="MENTION:a3667:ca0">
+      <data key="d0">Mention</data>
+      <data key="d1">Ferdinand Appell and Morris Litvin Are Placed Un der Arrest</data>
+    </node>
+    <node id="CA:a3667:1">
+      <data key="d0">CausalAssertion</data>
+      <data key="d5">causes</data>
+      <data key="d6">+</data>
+      <data key="d7">0.7</data>
+      <data key="d8">crime</data>
+      <data key="d3">post</data>
+    </node>
+    <node id="Concept:단속 중 다량의 주류 발견">
+      <data key="d0">Concept</data>
+      <data key="d1">단속 중 다량의 주류 발견</data>
+    </node>
+    <node id="Concept:압류 조치">
+      <data key="d0">Concept</data>
+      <data key="d1">압류 조치</data>
+    </node>
+    <node id="MENTION:a3667:ca1">
+      <data key="d0">Mention</data>
+      <data key="d1">a vail containing* a larpe quantity of liquor ami a tew bottles of non-alcoholic heveragres yesterday afternoon backed agai</data>
+    </node>
+    <edge source="ART:a0472" target="SRC:EveningStar" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Person:Maj. Pullman" target="MENTION:a0472:Maj. Pullman" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Person:Maj. Pullman" target="ART:a0472" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">AlaJ. Pullman, superintendent of po lice. thinks greater care should be exercised</data>
+    </edge>
+    <edge source="MENTION:a0472:Maj. Pullman" target="ART:a0472" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Concept:denatured alcohol" target="MENTION:a0472:denatured alcohol" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Concept:denatured alcohol" target="ART:a0472" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">denatured alcohol is easily obtained at auto service sta tions through the city</data>
+    </edge>
+    <edge source="MENTION:a0472:denatured alcohol" target="ART:a0472" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="EVENT:a0472:0" target="ART:a0472" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">In a message to the several police captains, AlaJ. Pullman stated</data>
+    </edge>
+    <edge source="EVENT:a0472:0" target="MENTION:a0472:event0" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="MENTION:a0472:event0" target="ART:a0472" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="CA:a0472:0" target="Concept:변성 알코올의 손쉬운 접근(자동차 정비소)" id="0">
+      <data key="d9">CAUSE</data>
+    </edge>
+    <edge source="CA:a0472:0" target="Concept:음용 목적의 불법 전용" id="0">
+      <data key="d9">EFFECT</data>
+    </edge>
+    <edge source="CA:a0472:0" target="MENTION:a0472:ca0" id="0">
+      <data key="d9">EVIDENCE</data>
+    </edge>
+    <edge source="MENTION:a0472:ca0" target="ART:a0472" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="ART:a0531" target="SRC:EveningStar" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Concept:wood alcohol" target="MENTION:a0531:wood alcohol" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Concept:wood alcohol" target="ART:a0531" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">Wood alcohol makes the subsequent doctor's bill</data>
+    </edge>
+    <edge source="MENTION:a0531:wood alcohol" target="ART:a0531" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Concept:bootlegger's bribe" target="MENTION:a0531:bootlegger's bribe" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Concept:bootlegger's bribe" target="ART:a0531" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">the bootleggers' exorbi tant bribe</data>
+    </edge>
+    <edge source="MENTION:a0531:bootlegger's bribe" target="ART:a0531" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="CA:a0531:0" target="Concept:목정 알코올(wood alcohol) 음용" id="0">
+      <data key="d9">CAUSE</data>
+    </edge>
+    <edge source="CA:a0531:0" target="Concept:중독/의료비 지출" id="0">
+      <data key="d9">EFFECT</data>
+    </edge>
+    <edge source="CA:a0531:0" target="MENTION:a0531:ca0" id="0">
+      <data key="d9">EVIDENCE</data>
+    </edge>
+    <edge source="MENTION:a0531:ca0" target="ART:a0531" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="CA:a0531:1" target="Concept:밀주(스피크지) 음주 풍습 일반" id="0">
+      <data key="d9">CAUSE</data>
+    </edge>
+    <edge source="CA:a0531:1" target="Concept:부패(뇌물) 관행과의 풍자적 등치" id="0">
+      <data key="d9">EFFECT</data>
+    </edge>
+    <edge source="CA:a0531:1" target="MENTION:a0531:ca1" id="0">
+      <data key="d9">EVIDENCE</data>
+    </edge>
+    <edge source="MENTION:a0531:ca1" target="ART:a0531" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="ART:a0267" target="SRC:EveningStar" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Place:Brooklyn" target="MENTION:a0267:Brooklyn" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Place:Brooklyn" target="ART:a0267" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">CHARGED IN BROOKLYN</data>
+    </edge>
+    <edge source="MENTION:a0267:Brooklyn" target="ART:a0267" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Concept:가정 제조 술 레시피" target="MENTION:a0267:가정 제조 술 레시피" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Concept:가정 제조 술 레시피" target="ART:a0267" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">selling recipes for home mnnufacture of beer and "red liquor"</data>
+    </edge>
+    <edge source="MENTION:a0267:가정 제조 술 레시피" target="ART:a0267" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="EVENT:a0267:0" target="ART:a0267" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">two men am' a woman were arrested today in Brooklyn by federal.officials</data>
+    </edge>
+    <edge source="EVENT:a0267:0" target="MENTION:a0267:event0" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="MENTION:a0267:event0" target="ART:a0267" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="CA:a0267:0" target="Concept:자가제조 술 레시피 판매 광고" id="0">
+      <data key="d9">CAUSE</data>
+    </edge>
+    <edge source="CA:a0267:0" target="Concept:연방 단속 및 체포" id="0">
+      <data key="d9">EFFECT</data>
+    </edge>
+    <edge source="CA:a0267:0" target="MENTION:a0267:ca0" id="0">
+      <data key="d9">EVIDENCE</data>
+    </edge>
+    <edge source="MENTION:a0267:ca0" target="ART:a0267" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="CA:a0267:1" target="Concept:다량의 알코올 함유 주장 광고" id="0">
+      <data key="d9">CAUSE</data>
+    </edge>
+    <edge source="CA:a0267:1" target="Concept:연방 당국의 보고 접수·수사 개시" id="0">
+      <data key="d9">EFFECT</data>
+    </edge>
+    <edge source="CA:a0267:1" target="MENTION:a0267:ca1" id="0">
+      <data key="d9">EVIDENCE</data>
+    </edge>
+    <edge source="MENTION:a0267:ca1" target="ART:a0267" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="ART:a3510" target="SRC:EveningStar" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Person:Mathias Erzberger" target="MENTION:a3510:Mathias Erzberger" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Person:Mathias Erzberger" target="ART:a3510" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">MATHtAS ERZBERGER Minister of Finance Retires Dis credited</data>
+    </edge>
+    <edge source="MENTION:a3510:Mathias Erzberger" target="ART:a3510" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Person:Moesle" target="MENTION:a3510:Moesle" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Person:Moesle" target="ART:a3510" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">Moesle has be^n se-' lented to succeed Mathias Err-b.-rtfr</data>
+    </edge>
+    <edge source="MENTION:a3510:Moesle" target="ART:a3510" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="EVENT:a3510:0" target="ART:a3510" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">who resigned yesterday as minister' of finance</data>
+    </edge>
+    <edge source="EVENT:a3510:0" target="MENTION:a3510:event0" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="MENTION:a3510:event0" target="ART:a3510" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="CA:a3510:0" target="Concept:자금 밀반출(money smuggling) 의혹" id="0">
+      <data key="d9">CAUSE</data>
+    </edge>
+    <edge source="CA:a3510:0" target="Concept:재무장관 사임/경질" id="0">
+      <data key="d9">EFFECT</data>
+    </edge>
+    <edge source="CA:a3510:0" target="MENTION:a3510:ca0" id="0">
+      <data key="d9">EVIDENCE</data>
+    </edge>
+    <edge source="MENTION:a3510:ca0" target="ART:a3510" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="ART:a3354" target="SRC:EveningStar" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Place:New Jersey" target="MENTION:a3354:New Jersey" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Place:New Jersey" target="ART:a3354" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">liquor agitation is figuring in New Jersey</data>
+    </edge>
+    <edge source="MENTION:a3354:New Jersey" target="ART:a3354" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="CA:a3354:0" target="Concept:주류(금주법) 논쟁 격화" id="0">
+      <data key="d9">CAUSE</data>
+    </edge>
+    <edge source="CA:a3354:0" target="Concept:지역 정치 지형(의석 경쟁) 영향" id="0">
+      <data key="d9">EFFECT</data>
+    </edge>
+    <edge source="CA:a3354:0" target="MENTION:a3354:ca0" id="0">
+      <data key="d9">EVIDENCE</data>
+    </edge>
+    <edge source="MENTION:a3354:ca0" target="ART:a3354" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="ART:a3435" target="SRC:EveningStar" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Person:Gov. Edwards" target="MENTION:a3435:Gov. Edwards" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Person:Gov. Edwards" target="ART:a3435" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">Gov. Edwards of New Jersey an nounced here yesterday his intention</data>
+    </edge>
+    <edge source="MENTION:a3435:Gov. Edwards" target="ART:a3435" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Organization:민주당 전당대회" target="MENTION:a3435:민주당 전당대회" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Organization:민주당 전당대회" target="ART:a3435" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">the democratic national i convention at San Francisco</data>
+    </edge>
+    <edge source="MENTION:a3435:민주당 전당대회" target="ART:a3435" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="EVENT:a3435:0" target="ART:a3435" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">prepared to fight for an anti-prohibition plank j in the party platform</data>
+    </edge>
+    <edge source="EVENT:a3435:0" target="MENTION:a3435:event0" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="MENTION:a3435:event0" target="ART:a3435" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="CA:a3435:0" target="Concept:금주법에 대한 정치적 반발" id="0">
+      <data key="d9">CAUSE</data>
+    </edge>
+    <edge source="CA:a3435:0" target="Concept:정당 강령 내 반금주법 조항 추진" id="0">
+      <data key="d9">EFFECT</data>
+    </edge>
+    <edge source="CA:a3435:0" target="MENTION:a3435:ca0" id="0">
+      <data key="d9">EVIDENCE</data>
+    </edge>
+    <edge source="MENTION:a3435:ca0" target="ART:a3435" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="ART:a3667" target="SRC:EveningStar" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Person:Ferdinand Appell" target="MENTION:a3667:Ferdinand Appell" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Person:Ferdinand Appell" target="ART:a3667" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">Ferdinand Appell and Morris Litvin Are Placed Un der Arrest</data>
+    </edge>
+    <edge source="MENTION:a3667:Ferdinand Appell" target="ART:a3667" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Person:Morris Litvin" target="MENTION:a3667:Morris Litvin" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Person:Morris Litvin" target="ART:a3667" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">Ferdinand Appell and Morris Litvin Are Placed Un der Arrest</data>
+    </edge>
+    <edge source="MENTION:a3667:Morris Litvin" target="ART:a3667" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="Place:M Street" target="MENTION:a3667:M Street" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="Place:M Street" target="ART:a3667" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">IT GOODS SEIZED IN M STREET RAIDS</data>
+    </edge>
+    <edge source="MENTION:a3667:M Street" target="ART:a3667" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="EVENT:a3667:0" target="ART:a3667" id="0">
+      <data key="d9">ABOUT</data>
+      <data key="d10">a vail containing* a larpe quantity of liquor ami a tew bottles of non-alcoholic heveragres yesterday afternoon</data>
+    </edge>
+    <edge source="EVENT:a3667:0" target="MENTION:a3667:event0" id="0">
+      <data key="d9">SUPPORTED_BY</data>
+    </edge>
+    <edge source="MENTION:a3667:event0" target="ART:a3667" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="CA:a3667:0" target="Concept:금주국 단속(raid) 실시 (헤드라인)" id="0">
+      <data key="d9">CAUSE</data>
+    </edge>
+    <edge source="CA:a3667:0" target="Concept:관련자 체포" id="0">
+      <data key="d9">EFFECT</data>
+    </edge>
+    <edge source="CA:a3667:0" target="MENTION:a3667:ca0" id="0">
+      <data key="d9">EVIDENCE</data>
+    </edge>
+    <edge source="MENTION:a3667:ca0" target="ART:a3667" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+    <edge source="CA:a3667:1" target="Concept:단속 중 다량의 주류 발견" id="0">
+      <data key="d9">CAUSE</data>
+    </edge>
+    <edge source="CA:a3667:1" target="Concept:압류 조치" id="0">
+      <data key="d9">EFFECT</data>
+    </edge>
+    <edge source="CA:a3667:1" target="MENTION:a3667:ca1" id="0">
+      <data key="d9">EVIDENCE</data>
+    </edge>
+    <edge source="MENTION:a3667:ca1" target="ART:a3667" id="0">
+      <data key="d9">DERIVED_FROM</data>
+    </edge>
+  </graph>
+</graphml>
